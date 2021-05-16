@@ -2,7 +2,7 @@
 
 // TODO: check to see if ports lan0-7 are grouped separately because they are all part of the internal switch. From the console, interrupt the regular boot process and run the command "mdio list" and "mii device"
 
-#include "cn7130_ubnt_edgerouter-4-6p-12.dtsi"
+#include "cn7130_ubnt_edgerouter-e300.dtsi"
 
 / {
 	compatible = "ubnt,edgerouter-12", "cavium,cn7130";
